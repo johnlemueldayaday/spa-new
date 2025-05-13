@@ -1,4 +1,4 @@
 Alpine.store("settings", {
-    apiBaseUrl:"http://172.17.100.14:3380/espiritu2/api/",  
+    apiBaseUrl:"http://172.17.100.14:3341/dayaday6/api/",  
     appName: "Ecommerce",  
 });
