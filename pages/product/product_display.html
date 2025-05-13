@@ -22,13 +22,10 @@
             --danger-color: #EF4444; /* Red */
             --text-color: #E5E7EB; /* Light gray for text */
             --background-color: #0a0a0a; /* Very dark blue/gray */
-            --card-background: #2c2828; /* Dark blue/gray for cards */
+            --card-background: #2c2424; /* Dark blue/gray for cards */
             --border-color: #513737; /* Medium gray */
             --highlight-color: #fa6060; /* Light blue highlight */
-            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
-            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
-            --glow-effect: 0 0 10px rgba(246, 59, 59, 0.5); /* Blue glow */
-            --grid-lines: rgba(241, 99, 99, 0.1); /* Very subtle grid lines */
+            --grid-lines: rgba(185, 26, 26, 0.1); /* Very subtle grid lines */
         }
         * {
             box-sizing: border-box;
@@ -52,7 +49,7 @@
             z-index: 3000 !important; /* Higher z-index for dropdowns */
         }
         .navbar {
-            background: rgba(17, 24, 39, 0.95); /* Semi-transparent dark background */
+            background:transparent; /* Semi-transparent dark background */
             backdrop-filter: blur(8px);
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
             border-bottom: 1px solid var(--border-color);
@@ -541,7 +538,7 @@
         <div class="navbar">
             <div class="ui container">
                 <h2 class="ui header">
-                    <div class="content">Dydy PC Hub</div>
+                    <div class="content">Peripheralles</div>
                 </h2>
                 <button class="ui button"
                         x-bind:class="editMode ? 'negative' : 'positive'"
